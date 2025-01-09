@@ -1,4 +1,4 @@
-baseURL = "https://alissa-maria.github.io/"
+baseURL = "https://alissa-maria.github.io/sparrow"
 languageCode = "en-us"
 title = "Sparrow"
 theme = "smol"
@@ -20,10 +20,16 @@ theme = "smol"
         weight = 2
 
   [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+
+  [[menu.main]]
         identifier = "about"
         name = "About"
         url = "/about"
-        weight = 3
+        weight = 4
 
   [[menu.footer]]
         name = "Github"
