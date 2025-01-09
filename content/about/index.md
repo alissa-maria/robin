@@ -8,6 +8,7 @@ My name is Alissa. Blablablabla.
 
 This blog exists so I can publish my SIEM related tutorials that I couldn't really find online, so that I had to stitch together myself. I hope it will have some value to anyone who finds my little website.
 
+```text
 　　　　　　　　　　　　,......:::::::::￣￣￣:::::::.......､
 　　　　　　　　　　,..イ:::::::::::::::::::::::::::::::､:::::::::::::::::::＼
 　　　　　　　　 ／::／////////////∧::::::::::::::::::::::::.
@@ -30,3 +31,4 @@ This blog exists so I can publish my SIEM related tutorials that I couldn't real
 　　　 '／　/∧　　 |､/::/´: ://　　｀　!　_,..-　　　　　／＞ ､::::::::::.
 　　　　　 /::{∨　　 l /´: : //＜///VI////＞､_　　/／: : : : : ＞ ､
 　　　 　 /::/　｀ー '´ {: :／///////∧//////// //: : : /: : : : : : : :
+```
