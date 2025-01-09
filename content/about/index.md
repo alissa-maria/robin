@@ -8,7 +8,7 @@ My name is Alissa. Blablablabla.
 
 This blog exists so I can publish my SIEM related tutorials that I couldn't really find online, so that I had to stitch together myself. I hope it will have some value to anyone who finds my little website.
 
-<pre class="ascii-art">
+{{< ascii >}}
 　　　　　　　　　　　　,......:::::::::￣￣￣:::::::.......､
 　　　　　　　　　　,..イ:::::::::::::::::::::::::::::::､:::::::::::::::::::＼
 　　　　　　　　 ／::／////////////∧::::::::::::::::::::::::.
@@ -30,6 +30,6 @@ This blog exists so I can publish my SIEM related tutorials that I couldn't real
 　　　 '／　/∧　　 |､/::/´: ://　　｀　!　_,..-　　　　　／＞ ､::::::::::.
 　　　　　 /::{∨　　 l /´: : //＜///VI////＞､_　　/／: : : : : ＞ ､
 　　　 　 /::/　｀ー '´ {: :／///////∧//////// //: : : /: : : : : : : :
-</pre>
+{{< /ascii >}}
 
 ![Homura Akemi.](http://lh6.ggpht.com/-sEZvFEK-Deg/UG2Y8PGsoYI/AAAAAAACHBI/i1o56jy0IEQ/w700/madoka_magica_617.png)
