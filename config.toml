@@ -4,7 +4,7 @@ title = "Sparrow"
 theme = "smol"
 
 [params]
-    subtitle = "Simple tech blog with guides I couldn't find online."
+    subtitle = "Modest angel, far from home."
     dateFmt = "02.01.2006 15:04"
 
 [menu]
