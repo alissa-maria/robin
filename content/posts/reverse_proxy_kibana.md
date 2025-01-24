@@ -1,17 +1,14 @@
 ---
 title: "Setting Up Kibana behind a reverse proxy (Nginx)"
 description: "For my first guide, I'd like to explain in an easy-to-follow manner how to set up Kibana to work behind a reverse proxy, specifically Nginx."
-date: 2025-01-24 18:05
+date: 2025-01-24T18:12:00Z
+tags:
+- Elasticsearch 
 ---
-
-
-# Setting Up Kibana behind a reverse proxy (Nginx)
 
 This guide walks you through setting up Kibana behind an Nginx reverse proxy, including enabling SSL with Let's Encrypt, configuring DNS, and optionally securing access with HTTP Basic Authentication, on **Ubuntu 22.04 LTS**.
 
 When you’re new to Elasticsearch and Kibana, the configuration process can feel overwhelming, like one big maze. I’ve tried to make this tutorial as easy to follow as possible, breaking it into straightforward steps. Let’s dive in! 🦦
-
----
 
 ## Step 1: Install Nginx
 
@@ -22,13 +19,9 @@ sudo apt-get update
 sudo apt-get install nginx
 ```
 
----
-
 ## Step 2: Configure DNS Records
 
 Point your domain name (e.g., `kibana.mydomain.net`) to the server's public IP address using DNS records. This ensures your domain resolves to the correct server.
-
----
 
 ## Step 3: Update Kibana Configuration
 
@@ -75,8 +68,6 @@ After making these changes, restart Kibana to apply the updated configuration:
 sudo systemctl restart kibana
 ```
 
----
-
 ## Step 4: Configure the Nginx site
 
 ### Create an Nginx server block
@@ -98,8 +89,6 @@ server {
 
 You’ll notice there’s no SSL configuration here yet. This will be automatically added when we set up a Let's Encrypt certificate in Step 6.
 
----
-
 ## Step 5: Enable the configuration and test
 
 Create a symbolic link to enable the configuration:
@@ -120,8 +109,6 @@ If the test passes, restart Nginx:
 sudo service nginx restart
 ```
 
----
-
 ## Step 6: Set up SSL with Let's Encrypt (Certbot)
 
 Install Certbot and obtain an SSL certificate for your domain:
@@ -132,8 +119,6 @@ sudo certbot --nginx -d kibana.mydomain.net
 ```
 
 Verify the output. If your DNS record is correctly configured, there should be no issues. Certbot will automatically configure SSL settings for you, including redirection from HTTP to HTTPS.
-
----
 
 ## Summary
 
