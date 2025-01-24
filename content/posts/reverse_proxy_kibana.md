@@ -1,8 +1,9 @@
 ---
-title: "Setting Up Kibana behind a reverse proxy (Nginx)"
+title: "Setting up Kibana behind a reverse proxy (Nginx)"
 description: "For my first guide, I'd like to explain in an easy-to-follow manner how to set up Kibana to work behind a reverse proxy, specifically Nginx."
 date: 2025-01-24
-tags: ["Kibana"]
+categories: ["Web"]
+tags: ["Kibana", "Nginx"]
 ---
 
 This guide walks you through setting up Kibana behind an Nginx reverse proxy, including enabling SSL with Let's Encrypt, configuring DNS, and optionally securing access with HTTP Basic Authentication, on **Ubuntu 22.04 LTS**.
@@ -88,7 +89,7 @@ server {
 
 You’ll notice there’s no SSL configuration here yet. This will be automatically added when we set up a Let's Encrypt certificate in Step 6.
 
-## Step 5: Enable the configuration and test
+### Enable the configuration and test
 
 Create a symbolic link to enable the configuration:
 
@@ -108,7 +109,7 @@ If the test passes, restart Nginx:
 sudo service nginx restart
 ```
 
-## Step 6: Set up SSL with Let's Encrypt (Certbot)
+## Step 5: Set up SSL with Let's Encrypt (Certbot)
 
 Install Certbot and obtain an SSL certificate for your domain:
 
