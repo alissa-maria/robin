@@ -2,8 +2,7 @@
 title: "Setting Up Kibana behind a reverse proxy (Nginx)"
 description: "For my first guide, I'd like to explain in an easy-to-follow manner how to set up Kibana to work behind a reverse proxy, specifically Nginx."
 date: 2025-01-24T18:12:00Z
-tags:
-- Elasticsearch 
+tags: ["Elasticsearch"]
 ---
 
 This guide walks you through setting up Kibana behind an Nginx reverse proxy, including enabling SSL with Let's Encrypt, configuring DNS, and optionally securing access with HTTP Basic Authentication, on **Ubuntu 22.04 LTS**.
