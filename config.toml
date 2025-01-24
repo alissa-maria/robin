@@ -5,7 +5,7 @@ theme = "smol"
 
 [params]
     subtitle = "Modest angel, far from home."
-    dateFmt = "02.01.2006 15:04"
+    dateFmt = "02.01.2006"
 
 [menu]
   [[menu.main]]
