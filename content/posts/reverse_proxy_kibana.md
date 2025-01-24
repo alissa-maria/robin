@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Kibana behind a reverse proxy (Nginx)"
 description: "For my first guide, I'd like to explain in an easy-to-follow manner how to set up Kibana to work behind a reverse proxy, specifically Nginx."
-date: 2025-01-24T18:12:00Z
+date: 2025-01-24
 tags: ["Elasticsearch"]
 ---
 
