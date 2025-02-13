@@ -5,8 +5,11 @@ theme = "hugo-bearblog"
 enableRobotsTXT = true
 
 [params]
-    description: "On Earth We're Briefly Profitable"
+    description = "On Earth We're Briefly Profitable"
     dateFmt = "02.01.2006"
+    hideMadeWithLine = false
+    # favicon = "images/favicon.png"
+    # images = ["images/share.png"]
 
 [menu]
   [[menu.main]]
@@ -34,3 +37,4 @@ enableRobotsTXT = true
 
 [markup]
   [markup.highlight]
+    noClasses = false
