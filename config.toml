@@ -8,8 +8,6 @@ enableRobotsTXT = true
     description: "On Earth We're Briefly Profitable"
     dateFmt = "02.01.2006"
     hideMadeWithLine = false
-    # favicon = "images/favicon.png"
-    # images = ["images/share.png"]
 
 [menu]
   [[menu.main]]
