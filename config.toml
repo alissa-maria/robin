@@ -2,10 +2,14 @@ baseURL = "https://sp4rrow.net"
 languageCode = "en-us"
 title = "SP4RROW"
 theme = "hugo-bearblog"
+enableRobotsTXT = true
 
 [params]
-    subtitle = "The atmosphere hums with power."
+    description: "On Earth We're Briefly Profitable"
     dateFmt = "02.01.2006"
+    hideMadeWithLine = false
+    # favicon = "images/favicon.png"
+    # images = ["images/share.png"]
 
 [menu]
   [[menu.main]]
@@ -21,14 +25,15 @@ theme = "hugo-bearblog"
         weight = 2
 
   [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+
+  [[menu.main]]
         name = "About"
         url = "/about"
         weight = 4
-
-  [[menu.footer]]
-        name = "Github"
-        url = "https://github.com/alissa-maria"
-        weight = 1
 
 [markup]
   [markup.highlight]
