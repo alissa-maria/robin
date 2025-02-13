@@ -7,7 +7,6 @@ enableRobotsTXT = true
 [params]
     description: "On Earth We're Briefly Profitable"
     dateFmt = "02.01.2006"
-    hideMadeWithLine = false
 
 [menu]
   [[menu.main]]
@@ -35,4 +34,3 @@ enableRobotsTXT = true
 
 [markup]
   [markup.highlight]
-    noClasses = false
