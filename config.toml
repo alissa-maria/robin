@@ -1,7 +1,7 @@
 baseURL = "https://sp4rrow.net"
 languageCode = "en-us"
 title = "SP4RROW"
-theme = "smol"
+theme = "hugo-bearblog"
 
 [params]
     subtitle = "The atmosphere hums with power."
